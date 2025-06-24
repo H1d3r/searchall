@@ -1,6 +1,6 @@
 module searchall3.5
 
-go 1.20
+go 1.23.0
 
 require (
 	github.com/gocarina/gocsv v0.0.0-20230616125104-99d496ca653d
@@ -14,10 +14,10 @@ require (
 	github.com/syndtr/goleveldb v1.0.0
 	github.com/tidwall/gjson v1.16.0
 	github.com/urfave/cli/v2 v2.25.7
-	golang.org/x/crypto v0.12.0
+	golang.org/x/crypto v0.35.0
 	golang.org/x/exp v0.0.0-20230817173708-d852ddb80c63
-	golang.org/x/sys v0.11.0
-	golang.org/x/text v0.12.0
+	golang.org/x/sys v0.30.0
+	golang.org/x/text v0.22.0
 	www.velocidex.com/golang/go-ntfs v0.1.1
 )
 
@@ -36,6 +36,6 @@ require (
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
-	golang.org/x/sync v0.3.0 // indirect
+	golang.org/x/sync v0.11.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
